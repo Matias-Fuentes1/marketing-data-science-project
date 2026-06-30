@@ -1,5 +1,3 @@
-# marketing-data-science-project
-
 # Retail Rocket · Modelo de Propensión de Compra con Machine Learning
 
 ## ¿De qué se trata?
