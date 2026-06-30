@@ -1,6 +1,6 @@
-# Retail Rocket · Modelo de Propensión de Compra con Machine Learning
+## Retail Rocket · Modelo de Propensión de Compra con Machine Learning
 
-## ¿De qué se trata?
+### ¿De qué se trata?
 Este es uno de mis proyectos de portfolio más desafiantes en el ámbito de Machine Learning y Analítica Predictiva. Lo armé para simular un escenario real de e-commerce utilizando datos crudos de navegación, pasando de un análisis puramente descriptivo ("qué pasó") a uno predictivo ("qué va a pasar"). 
 
 La pregunta de negocio que guió todo el desarrollo fue: **¿Qué usuarios tienen mayor probabilidad de convertir (comprar) en los próximos 7 días basados en su historial de navegación de los últimos 30 días?**
