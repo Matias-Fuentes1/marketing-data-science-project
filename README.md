@@ -9,8 +9,6 @@ A diferencia de los proyectos de juguete que usan datasets balanceados artificia
 
 ---
 
----
-
 ### Stack técnico
 - Python, pandas, numpy
 - scikit-learn: `train_test_split`, `RandomForestClassifier`, `classification_report`, `confusion_matrix`, `roc_auc_score`, `precision_recall_curve`
@@ -28,7 +26,6 @@ python 04_feature_engineering.py
 python 05_train_eval.py
 ```
 
----
 
 ## Dataset
 Datos del dataset **Retail Rocket** (Kaggle): eventos de comportamiento en un e-commerce real. El pipeline procesa millones de eventos crudos agrupados en tres tipos: `view`, `add_to_cart`, `transaction`.
