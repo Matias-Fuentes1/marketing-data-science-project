@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 # Leer el archivo CSV
@@ -20,6 +21,7 @@ print("Fecha máxima:", fecha_max)
 print(pd.crosstab(events_df['event'], events_df['transactionid'].notnull()))
 
 # Exportar a formato Parquet
+os.makedirs("processed", exist_ok=True)
 events_df.to_parquet("processed/events_clean.parquet", index=False)
 print("Script 01 terminado: Archivo 'events_clean.parquet' guardado con éxito.")
 
