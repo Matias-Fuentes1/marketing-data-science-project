@@ -16,7 +16,7 @@ X = df_completo.drop(columns=["visitorid", "target"])
 y = df_completo["target"]
 
 # 2. TRAIN/TEST SPLIT (Mantenemos la distribución desbalanceada real en Test para auditar el negocio)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 # 3. UNDERSAMPLING SOLO EN TRAIN (Blindaje estricto contra fugas de información)
 print(f"\nDistribución original en Train: {np.bincount(y_train)}")
